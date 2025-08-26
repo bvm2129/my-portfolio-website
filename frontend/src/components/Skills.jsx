@@ -2,20 +2,27 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { Progress } from './ui/progress';
-import { Code, Brain, Users2, TrendingUp } from 'lucide-react';
+import { Code, Palette, Users2, TrendingUp, Trophy, Brain } from 'lucide-react';
 import { profileData } from '../mock';
 
 const Skills = () => {
   const categoryIcons = {
     "Programming & Development": Code,
-    "AI & Machine Learning": Brain,
+    "Design & Styling": Palette,
     "Soft Skills": Users2
   };
 
   const categoryColors = {
     "Programming & Development": "bg-blue-50 border-blue-200",
-    "AI & Machine Learning": "bg-green-50 border-green-200",
+    "Design & Styling": "bg-green-50 border-green-200",
     "Soft Skills": "bg-purple-50 border-purple-200"
+  };
+
+  const achievementIcons = {
+    "Trophy": Trophy,
+    "Palette": Palette,
+    "Brain": Brain,
+    "Code": Code
   };
 
   return (
@@ -29,7 +36,7 @@ const Skills = () => {
             Technical Proficiencies & Core Competencies
           </h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            Continuously expanding my skill set to build impactful solutions in AI, development, and beyond
+            Continuously expanding my skill set to build impactful solutions in design, development, and beyond
           </p>
         </div>
 
@@ -67,10 +74,46 @@ const Skills = () => {
           })}
         </div>
 
+        {/* Key Achievements Section */}
+        <div className="mt-20">
+          <div className="text-center mb-12">
+            <Badge className="mb-4 bg-yellow-50 text-yellow-600 hover:bg-yellow-100">
+              Key Achievements
+            </Badge>
+            <h3 className="text-2xl sm:text-3xl font-bold text-slate-800 mb-4">
+              Milestones & Recognition
+            </h3>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+              Celebrating key accomplishments that showcase growth, leadership, and technical excellence
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {profileData.achievements.map((achievement) => {
+              const IconComponent = achievementIcons[achievement.icon];
+              
+              return (
+                <Card key={achievement.id} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-slate-200">
+                  <CardContent className="p-6 text-center">
+                    <div className={`w-16 h-16 rounded-full ${achievement.color} flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-200`}>
+                      <IconComponent className="w-8 h-8" />
+                    </div>
+                    <h4 className="font-bold text-slate-800 mb-2 text-lg">{achievement.title}</h4>
+                    <p className="text-sm text-slate-600 leading-relaxed mb-3">{achievement.description}</p>
+                    <Badge variant="outline" className="text-xs border-slate-300 text-slate-500">
+                      {achievement.category}
+                    </Badge>
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
+        </div>
+
         {/* Certifications Section */}
         <div className="mt-16">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-slate-800 mb-4">Certifications & Achievements</h3>
+            <h3 className="text-2xl font-bold text-slate-800 mb-4">Certifications & Workshops</h3>
             <p className="text-slate-600">Recognition for continuous learning and participation</p>
           </div>
           
@@ -101,10 +144,10 @@ const Skills = () => {
               <h3 className="text-xl font-bold text-slate-800 mb-4">Continuous Learning Journey</h3>
               <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
                 I believe in lifelong learning and staying updated with the latest technologies. 
-                Currently focusing on strengthening my foundation while exploring advanced concepts in AI and full-stack development.
+                Currently focusing on strengthening my foundation while exploring advanced concepts in UI/UX design and web development.
               </p>
               <div className="flex flex-wrap justify-center gap-2">
-                {['Python', 'Machine Learning', 'React', 'Node.js', 'MongoDB', 'Deep Learning', 'DevOps'].map((tech, index) => (
+                {['Python', 'UI/UX Design', 'React', 'JavaScript', 'Tailwind CSS', 'Git Workflows', 'Problem Solving'].map((tech, index) => (
                   <Badge key={index} variant="outline" className="border-blue-200 text-blue-700 hover:bg-blue-50">
                     {tech}
                   </Badge>
