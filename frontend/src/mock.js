@@ -7,7 +7,7 @@ export const profileData = {
   location: "Hyderabad, Telangana, India",
   email: "manaswini1857@gmail.com",
   linkedin: "www.linkedin.com/in/veda-manaswini-vustepalle",
-  profileImage: "https://images.unsplash.com/photo-1494790108755-2616c6bb90c4?w=400&h=400&fit=crop&crop=face", // Temporary - using a similar professional image until your actual photo is uploaded
+  profileImage: "https://res.cloudinary.com/dftb21yb0/image/upload/v1756188728/profile_pic_mziivm.jpg",
   
   about: {
     summary: "I'm a first-year student at NIAT with a passion for technology-driven solutions. Currently pursuing dual degrees - BSC in Computer Science Engineering from BITS Pilani and MS from Woolf University. I'm actively exploring Python to strengthen my foundation skills and eager to expand my knowledge in AI and web development, with a goal of building robust, efficient applications.",
