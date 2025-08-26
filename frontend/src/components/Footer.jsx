@@ -75,22 +75,6 @@ const Footer = () => {
                 LinkedIn
               </a>
             </div>
-
-            {/* Social Icons */}
-            <div className="flex space-x-3 mt-6">
-              {socialLinks.slice(0, 2).map((social, index) => (
-                <a
-                  key={index}
-                  href={social.url}
-                  target={social.url.startsWith('http') ? '_blank' : '_self'}
-                  rel={social.url.startsWith('http') ? 'noopener noreferrer' : ''}
-                  className="w-8 h-8 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-slate-700 hover:text-white transition-all duration-200 hover:scale-110"
-                >
-                  {social.name === 'LinkedIn' && <Linkedin className="w-4 h-4" />}
-                  {social.name === 'Email' && <Mail className="w-4 h-4" />}
-                </a>
-              ))}
-            </div>
           </div>
         </div>
 
