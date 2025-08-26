@@ -5,7 +5,7 @@ export const profileData = {
   title: "AI & ML Trainee | Full-Stack Developer in Progress",
   tagline: "Building tech that matters—merging code and care to empower people and create solutions with real-world impact.",
   location: "Hyderabad, Telangana, India",
-  email: "manutejukids@gmail.com",
+  email: "manaswini1857@gmail.com",
   linkedin: "www.linkedin.com/in/veda-manaswini-vustepalle",
   profileImage: "https://images.unsplash.com/photo-1581065178026-390bc4e78dad",
   
