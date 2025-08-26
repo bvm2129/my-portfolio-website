@@ -87,44 +87,122 @@ export const profileData = {
   projects: [
     {
       id: 1,
-      title: "AI-Powered Student Assistant",
-      description: "A smart chatbot designed to help students with academic queries using natural language processing. Built with Python and integrated with educational databases.",
-      technologies: ["Python", "NLP", "Machine Learning", "Flask"],
-      status: "In Development",
-      category: "AI/ML",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop",
+      title: "Day with Delight - UI/UX Design",
+      description: "A comprehensive mobile app UI/UX design created in Figma, focusing on user experience and modern design principles. Features intuitive navigation, engaging visuals, and user-centered design approach.",
+      technologies: ["Figma", "UI/UX Design", "Prototyping", "User Research"],
+      status: "Completed",
+      category: "Design",
+      image: "https://images.unsplash.com/photo-1602576666092-bf6447a729fc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxVSSUyMGRlc2lnbnxlbnwwfHx8fDE3NTYxODc5NDJ8MA&ixlib=rb-4.1.0&q=85",
+      liveUrl: "https://www.figma.com/design/NvXQMnsyLO0TgVu0oqMlOr/Day-with-Delight-_APP?node-id=602-10&p=f",
       highlights: [
-        "Natural language query processing",
-        "Educational content recommendation",
-        "Multi-language support planning"
+        "Modern mobile app interface design",
+        "User-centered design approach",
+        "Interactive Figma prototype"
       ]
     },
     {
       id: 2,
-      title: "Campus Resource Tracker",
-      description: "A full-stack web application to help students track and share campus resources, study materials, and academic opportunities.",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      status: "Planning Phase",
-      category: "Full-Stack",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
+      title: "Music Tracker - Static Website",
+      description: "A beautifully crafted static website for music tracking and discovery. Built with clean HTML and CSS, featuring responsive design and smooth user interactions.",
+      technologies: ["HTML", "CSS", "Responsive Design"],
+      status: "Completed",
+      category: "Web Development",
+      image: "https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NTYxODc5MzV8MA&ixlib=rb-4.1.0&q=85",
+      liveUrl: "https://tunecoders.niat.tech/",
       highlights: [
-        "Resource sharing platform",
-        "Real-time notifications",
-        "User authentication system"
+        "Clean and modern design",
+        "Fully responsive layout",
+        "Optimized for performance"
       ]
     },
     {
       id: 3,
-      title: "SQL Practice Platform",
-      description: "An interactive platform for students to practice SQL queries with real-world datasets and automated feedback system.",
-      technologies: ["Python", "SQL", "Django", "PostgreSQL"],
-      status: "Concept",
-      category: "Educational Tool",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+      title: "Food Munch - Digital Food App",
+      description: "A comprehensive food delivery application similar to Swiggy, built with HTML, CSS, and JavaScript. Features restaurant listings, menu browsing, and interactive ordering system.",
+      technologies: ["HTML", "CSS", "JavaScript", "DOM Manipulation"],
+      status: "Completed",
+      category: "Web Development",
+      image: "https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHw0fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NTYxODc5MzV8MA&ixlib=rb-4.1.0&q=85",
+      liveUrl: "https://restaurant111.niat.tech/",
       highlights: [
-        "Interactive SQL editor",
-        "Automated query validation",
-        "Progress tracking dashboard"
+        "Interactive food ordering system",
+        "Restaurant and menu management",
+        "JavaScript-powered functionality"
+      ]
+    },
+    {
+      id: 4,
+      title: "Digital Wallet - VM Cash",
+      description: "A modern digital wallet application built with React JS, featuring secure transactions, balance management, and intuitive user interface for seamless financial operations.",
+      technologies: ["React JS", "JavaScript", "Component Architecture", "State Management"],
+      status: "Completed",
+      category: "React Applications",
+      image: "https://images.unsplash.com/photo-1547119957-637f8679db1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NTYxODc5NDJ8MA&ixlib=rb-4.1.0&q=85",
+      liveUrl: "https://vmcash.niat.tech/",
+      highlights: [
+        "Secure digital wallet interface",
+        "React-based architecture",
+        "Modern financial UI/UX"
+      ]
+    },
+    {
+      id: 5,
+      title: "App Store - VVM App Store",
+      description: "A comprehensive app marketplace built with React JS, featuring app browsing, categories, search functionality, and modern e-commerce interface design.",
+      technologies: ["React JS", "JavaScript", "Component Design", "Routing"],
+      status: "Completed",
+      category: "React Applications",
+      image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxVSSUyMGRlc2lnbnxlbnwwfHx8fDE3NTYxODc5NDJ8MA&ixlib=rb-4.1.0&q=85",
+      liveUrl: "https://vvmappstore.niat.tech/",
+      highlights: [
+        "App marketplace interface",
+        "Search and filter functionality",
+        "React component architecture"
+      ]
+    },
+    {
+      id: 6,
+      title: "Digital Defense - Cybersecurity Platform",
+      description: "An innovative cybersecurity platform built using AI tools and vibe-coding techniques. Features modern security dashboard and threat monitoring capabilities.",
+      technologies: ["AI Tools", "Vibe Coding", "Modern Web Tech", "Security"],
+      status: "Completed",
+      category: "AI/No-Code",
+      image: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwzfHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NTYxODc5MzV8MA&ixlib=rb-4.1.0&q=85",
+      liveUrl: "https://p-2084.lovable.app/",
+      highlights: [
+        "AI-powered development approach",
+        "Cybersecurity focus",
+        "Modern security dashboard"
+      ]
+    },
+    {
+      id: 7,
+      title: "Agripath - Farmer-Friendly Platform",
+      description: "A comprehensive agricultural platform built using AI tools and JavaScript, designed to help farmers with modern farming techniques, weather updates, and crop management.",
+      technologies: ["AI Tools", "JavaScript", "Vibe Coding", "Agricultural Tech"],
+      status: "Completed",
+      category: "AI/No-Code",
+      image: "https://images.unsplash.com/photo-1558655146-d09347e92766?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw0fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NTYxODc5NDJ8MA&ixlib=rb-4.1.0&q=85",
+      liveUrl: "https://app--agri-verse-7abd8b24.base44.app/",
+      highlights: [
+        "Farmer-centric design",
+        "AI-assisted development",
+        "Agricultural technology focus"
+      ]
+    },
+    {
+      id: 8,
+      title: "Restaurant Name Recommender",
+      description: "An intelligent restaurant recommendation system using API calls and machine learning. Features GitHub workflows for CI/CD and Streamlit deployment for easy access.",
+      technologies: ["Python", "API Integration", "GitHub Workflows", "Streamlit", "Machine Learning"],
+      status: "Completed",
+      category: "Full-Stack/AI",
+      image: "https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg",
+      liveUrl: "https://restaurant-recommender-lxeta29ix9crsfeibzoxio.streamlit.app/",
+      highlights: [
+        "AI-powered recommendations",
+        "API integration and workflows",
+        "Production deployment"
       ]
     }
   ],
