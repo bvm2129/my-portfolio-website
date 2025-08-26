@@ -24,28 +24,63 @@ export const profileData = {
     {
       category: "Programming & Development",
       items: [
-        { name: "Python", level: 75, description: "Actively learning and strengthening foundation" },
-        { name: "SQL", level: 80, description: "Database querying and management" },
-        { name: "Full-Stack Development", level: 60, description: "Currently in progress" },
-        { name: "HTML/CSS", level: 70, description: "Web development fundamentals" }
+        { name: "Python", level: 80, description: "Strong foundation in Python programming" },
+        { name: "HTML", level: 85, description: "Solid HTML fundamentals" },
+        { name: "HTML5", level: 85, description: "Modern HTML5 features and semantics" },
+        { name: "Git", level: 75, description: "Version control and collaboration" },
+        { name: "Web Development Basics", level: 80, description: "Core web development principles" }
       ]
     },
     {
-      category: "AI & Machine Learning",
+      category: "Design & Styling",
       items: [
-        { name: "Artificial Intelligence", level: 65, description: "Core concepts and applications" },
-        { name: "Machine Learning", level: 60, description: "Learning algorithms and implementations" },
-        { name: "Data Science", level: 55, description: "Data analysis and visualization" }
+        { name: "User Interface Design", level: 85, description: "Creating intuitive and user-friendly interfaces" },
+        { name: "CSS (Bootstrap)", level: 80, description: "Responsive design with Bootstrap framework" },
+        { name: "CSS (Tailwind)", level: 75, description: "Utility-first CSS framework" }
       ]
     },
     {
       category: "Soft Skills",
       items: [
-        { name: "Teamwork", level: 90, description: "Collaborative problem-solving" },
-        { name: "Problem Solving", level: 85, description: "Analytical thinking approach" },
-        { name: "Communication", level: 80, description: "Clear technical communication" },
-        { name: "Learning Agility", level: 95, description: "Quick adaptation to new technologies" }
+        { name: "Collaborative Problem Solving", level: 90, description: "Working effectively in teams to solve complex problems" },
+        { name: "Communication", level: 85, description: "Clear technical and interpersonal communication" },
+        { name: "Learning Agility", level: 95, description: "Quick adaptation to new technologies and concepts" }
       ]
+    }
+  ],
+
+  achievements: [
+    {
+      id: 1,
+      title: "Hackathon Champion",
+      description: "Led team to fifth place in hackathon with 95% efficiency increase.",
+      icon: "Trophy",
+      color: "bg-yellow-100 text-yellow-600",
+      category: "Competition"
+    },
+    {
+      id: 2,
+      title: "UI Design Specialist",
+      description: "Improved UI design efficiency by 30% during workshop participation.",
+      icon: "Palette",
+      color: "bg-purple-100 text-purple-600",
+      category: "Design"
+    },
+    {
+      id: 3,
+      title: "AI Workshop Graduate",
+      description: "Completed AI workshop with 98% competency score, enhancing machine learning skills.",
+      icon: "Brain",
+      color: "bg-blue-100 text-blue-600",
+      category: "AI/ML"
+    },
+    {
+      id: 4,
+      title: "Website Development Pro",
+      description: "Developed static website in record time of two hours, streamlining build process.",
+      icon: "Code",
+      color: "bg-green-100 text-green-600",
+      category: "Development"
     }
   ],
 
